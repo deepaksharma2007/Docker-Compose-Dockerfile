@@ -3,3 +3,12 @@ version: "3"
 services:
    webapp:
       image: mytomcat:v1 
+
+
+# Docker compose file to build image and launch container and also enable patting
+version: "3"
+services:
+   webapp:
+     build:  .
+     ports:
+     - "8081:8080"
