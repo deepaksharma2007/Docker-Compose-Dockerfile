@@ -1,0 +1,5 @@
+# Docker compose file to launch a container by pre-created image 
+version: "3"
+services:
+   webapp:
+      image: mytomcat:v1 
